@@ -7,7 +7,7 @@ A modern, Twitch-inspired video streaming platform with a robust backend and rea
 **Social Tag**: `#stay_connected_central_live_chat`  
 **Developed by**: Natnael Girma <br>
 **Telegram**: <a href="https://t.me/n_a_t_n_a_e_l_g_i_r_m_a">
-<img src="![alt text](image-1.png)" width="200" alt="Telegram QR Code"></a>
+<img src="image-1.png" width="200" alt="Telegram QR Code"></a>
 
 **Date**: February 2025
 **live Demo**: https://loca-stream.onrender.com
