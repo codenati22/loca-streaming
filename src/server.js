@@ -35,7 +35,7 @@ app.use(unknownEndpoint);
 
 app.use(errorHandler);
 
-server.listen(port, () => {
-  console.log(`Server running on http://localhost:${port}`);
+server.listen(port, "0.0.0.0", () => {
+  console.log(`Server running on ${port}`);
   console.log("WebSocket server should be ready...");
 });
