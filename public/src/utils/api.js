@@ -1,4 +1,5 @@
-const BASE_URL = "http://localhost:3000/api";
+// Use relative URL to match the current domain
+const BASE_URL = "/api";
 
 async function fetchVideos() {
   try {

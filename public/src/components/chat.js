@@ -16,7 +16,9 @@ function initChat() {
   const input = document.getElementById("chat-input");
   const sendBtn = document.getElementById("chat-send");
 
-  const ws = new WebSocket("ws://localhost:3000");
+  const wsProtocol = window.location.protocol === "https:" ? "wss:" : "ws:";
+  const wsHost = window.location.host;
+  const ws = new WebSocket(`${wsProtocol}//${wsHost}`);
 
   ws.onopen = () => console.log("Chat WebSocket connected");
   ws.onmessage = (event) => {

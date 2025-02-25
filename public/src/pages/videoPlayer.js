@@ -14,9 +14,7 @@ export function initVideoPlayer() {
     return;
   }
 
-  const videoUrl = `http://localhost:3000/api/stream/${encodeURIComponent(
-    videoFile
-  )}`;
+  const videoUrl = `/api/stream/${encodeURIComponent(videoFile)}`;
   console.log(`Playing video: ${videoUrl}`);
 
   videoPlayer.innerHTML = `
