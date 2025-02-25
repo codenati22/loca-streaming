@@ -5,8 +5,10 @@
 A modern, Twitch-inspired video streaming platform with a robust backend and real-time chat powered by WebSockets. This project showcases a scalable Node.js backend with Express, efficient video streaming, and seamless live chat functionality, designed for a smooth user experience. The main focus is on the **backend architecture** and **WebSocket implementation** to enable real-time communication.
 
 **Social Tag**: `#stay_connected_central_live_chat`  
-**Developed by**: Natnael Girma
-**Telegram**: <a href="https://t.me/n_a_t_n_a_e_l_g_i_r_m_a"><img src="images/qrcode.png" width="200" alt="Telegram QR Code"></a>
+**Developed by**: Natnael Girma <br>
+**Telegram**: <a href="https://t.me/n_a_t_n_a_e_l_g_i_r_m_a">
+<img src="![alt text](image-1.png)" width="200" alt="Telegram QR Code"></a>
+
 **Date**: February 2025
 **live Demo**: https://loca-stream.onrender.com
 
